@@ -1,5 +1,7 @@
 # Speaker Diraization and Sentiment Analysis
 
+This project was built by Kenson Hui, Rishik Raj, Teresa Tien, Nicolas Avramidis and Naveed Khan as part of the WSIB Hackathon in November 2023 in 4 hours.
+
 The goal of this project is to speed up the process of reviewing call quality of customer service representives and companies. The current method has been to manually listen into calls, and evaluate the calls based on different criterias. Our proposed method is to transcribe the calls and perform diarization (the process of recognizating who is speaking at any given time), then performing sentiment analysis on each sentence spoken to understand the emotions the customer is feeling, and the tone of the customer representatives. 
 
 Running our project on the A100 with OpenAi Whisper large-v3 performs at a real-time factor of 0.5.
@@ -22,9 +24,13 @@ We use Speechbox to find the minimal alignment between the transcription generat
 You can now run a GUI demo with:
 ```python gradio_script.py```
 
-### Credits:
-This project was built by Kenson Hui, Rishik Raj, Teresa Tien, Nicolas Avramidis and Naveed Khan as part of the WSIB Hackathon in November 2023.
+After obtaining the JSON representation of the conversation, you can proceed to perform sentiment analysis through the sentiment_analysis.ipynb notebook.
 
+### Next Steps:
+If we had more time, we would add the additional improvments:
+- Sentiment analysis not only with text, but on the original audio
+
+### Credits:
 References: 
 - https://huggingface.co/learn/audio-course/chapter7/transcribe-meeting
 - https://github.com/MahmoudAshraf97/whisper-diarization
