@@ -1,6 +1,6 @@
 # Speaker Diraization and Sentiment Analysis
 
-This project was built by Kenson Hui, Rishik Raj, Teresa Tien, Nicolas Avramidis and Naveed Khan as part of the WSIB Hackathon in November 2023 in 4 hours.
+This project was built by Kenson Hui, Rishik Raj, Teresa Tien, Nicolas Avramidis and Naveed Khan as part of the WSIB Hackathon on November 23, 2023 in 4 hours.
 
 The goal of this project is to speed up the process of reviewing call quality of customer service representives and companies. The current method has been to manually listen into calls, and evaluate the calls based on different criterias. Our proposed method is to transcribe the calls and perform diarization (the process of recognizating who is speaking at any given time), then performing sentiment analysis on each sentence spoken to understand the emotions the customer is feeling, and the tone of the customer representatives. 
 
