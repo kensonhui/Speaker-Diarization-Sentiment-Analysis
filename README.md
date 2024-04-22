@@ -28,7 +28,7 @@ After obtaining the JSON representation of the conversation, you can proceed to 
 
 ### Next Steps:
 If we had more time, we would add the additional improvments:
-- Sentiment analysis not only with text, but on the original audio
+- Sentiment analysis not only with text, but on the original audio. This would significantly improve the accuracy of the sentiment analysis - as currently only the transcribed text is used to determine emotion. However, gaining the full modality of audio would unlock the nuances of the dynamics of speech which are necessary in conveying emotion.
 
 ### Credits:
 References: 
